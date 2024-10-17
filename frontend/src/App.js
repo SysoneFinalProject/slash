@@ -1,7 +1,8 @@
 import './assets/styles/common.scss';
+import Main from './pages/Main';
 
 function App() {
-  return <div className="App">안녕 </div>;
+  return <div className="App"><Main/></div>;
 }
 
 export default App;
