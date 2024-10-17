@@ -1,8 +1,11 @@
-import './assets/styles/common.scss';
-import Main from './pages/Main';
-
 function App() {
-  return <div className="App"><Main/></div>;
-}
+  const userRole = 'admin';
+  const menuItems = ['Home', 'About', 'Services', 'Contact']; // 사이드바에 표시할 항목들
 
+  return (
+    <div className="App">
+      <div className="nerdy">널디</div>
+    </div>
+  );
+}
 export default App;
